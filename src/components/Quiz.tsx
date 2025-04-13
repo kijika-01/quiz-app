@@ -218,7 +218,7 @@ const Quiz: React.FC = () => {
   if (!isStarted) {
     return (
       <div className="quiz-container">
-        <h2>Reactクイズ</h2>
+        <h2>花言葉クイズ</h2>
         <p>クイズを開始する準備はできましたか？</p>
         <button onClick={startQuiz} className="option-button">クイズを開始</button>
       </div>
